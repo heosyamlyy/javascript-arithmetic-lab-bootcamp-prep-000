@@ -52,7 +52,8 @@ it('inc(n) increments n and returns the result', function() {
 })
 */
 function inc(n) {
-  return n++;
+  n +=1;
+  return n;
 }
 /*
 it('dec(n) decrements n and returns the result', function() {
