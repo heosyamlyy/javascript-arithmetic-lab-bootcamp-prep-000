@@ -98,7 +98,7 @@ describe('preserveDecimal(n)', function() {
 function preserveDecimal(n) {
   var output = parseFloat(n,10)
   if (isNaN(output)) {
-    return true
+    return n
   }
   return output
 }
