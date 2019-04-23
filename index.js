@@ -61,7 +61,8 @@ it('dec(n) decrements n and returns the result', function() {
 })
 */
 function dec(n) {
-  return n--;
+  n -= 1
+  return n;
 }
 
 /*
