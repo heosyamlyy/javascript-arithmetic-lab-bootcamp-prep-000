@@ -76,7 +76,7 @@ describe('makeInt(n)', function() {
 function makeInt(n) {
   var output = parseInt(n,10)
   if (isNaN(output)){
-    return true
+    return n
   }
   return output
 }
