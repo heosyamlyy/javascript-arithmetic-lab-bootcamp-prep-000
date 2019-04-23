@@ -109,3 +109,4 @@ function preserveDecimal(n) {
 })
 
 */
+console.log(preserveDecimal("adfadfads"))
