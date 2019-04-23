@@ -109,4 +109,4 @@ function preserveDecimal(n) {
 })
 
 */
-console.log(preserveDecimal("adfadfads"))
+console.log(preserveDecimal("sldkjflksjf"))
